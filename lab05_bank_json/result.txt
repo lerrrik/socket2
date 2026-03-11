@@ -1,0 +1,49 @@
+=== терминал сервера ===
+Bank server listening on port 9092
+Client connected from ('127.0.0.1', 54326)
+Request: {'action': 'balance'}
+```
+ 
+```bash
+Response sent: {'ok': True, 'balance': 1000}
+Client connected from ('127.0.0.1', 54327)
+Request: {'action': 'deposit', 'amount': 500}
+Response sent: {'ok': True, 'balance': 1500}
+Client connected from ('127.0.0.1', 54328)
+Request: {'action': 'withdraw', 'amount': 200}
+Response sent: {'ok': True, 'balance': 1300}
+
+=== терминал клиента ===
+--- Bank Client ---
+1. Check balance
+2. Deposit
+3. Withdraw
+4. Exit
+Choose action (1-4): 1
+Current balance: 1000
+
+--- Bank Client ---
+1. Check balance
+2. Deposit
+3. Withdraw
+4. Exit
+Choose action (1-4): 2
+Enter amount to deposit: 500
+New balance: 1500
+
+--- Bank Client ---
+1. Check balance
+2. Deposit
+3. Withdraw
+4. Exit
+Choose action (1-4): 3
+Enter amount to withdraw: 200
+New balance: 1300
+
+--- Bank Client ---
+1. Check balance
+2. Deposit
+3. Withdraw
+4. Exit
+Choose action (1-4): 4
+Goodbye!

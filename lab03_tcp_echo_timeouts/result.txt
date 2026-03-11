@@ -1,0 +1,10 @@
+=== терминал сервера ===
+server is listening on 9090
+new client ('127.0.0.1', 54323)
+received test message
+client left
+no client, listening again
+
+=== терминал клиента ===
+message (exit to quit): test message
+echo test message

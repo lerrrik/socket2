@@ -1,0 +1,17 @@
+=== PICKLE: терминал сервера ===
+Pickle server listening on port 9090
+Client connected ('127.0.0.1', 54324)
+Received pickle data
+Server finished
+
+=== PICKLE: терминал клиента ===
+Sending: {'name': 'alice', 'n': 42, 'hobbies': ['reading', 'swimming']}
+echo: {'name': 'alice', 'n': 42, 'hobbies': ['reading', 'swimming']}
+
+=== UDP: терминал сервера ===
+UDP server listening on port 9091
+Received from ('127.0.0.1', 54325): hello udp
+
+=== UDP: терминал клиента ===
+Sent: hello udp
+echo: hello udp
